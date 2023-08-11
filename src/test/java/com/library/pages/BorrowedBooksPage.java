@@ -7,7 +7,6 @@ import java.util.List;
 
 public class BorrowedBooksPage extends BasePage{
 
-
     @FindBy(xpath = "//tbody//td[2]")
     public List<WebElement> allBorrowedBooksName;
 }
